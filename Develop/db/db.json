@@ -2,15 +2,5 @@
   {
     "title": "Test Title",
     "text": "Test text"
-  },
-  {
-    "title": "Grocery list",
-    "text": "strawberry\nbanana\nbread\npeanut butter",
-    "id": "7e281661-e463-4035-bc0e-94a2f108b39d"
-  },
-  {
-    "title": "Appointments ",
-    "text": "Doctor appointment 10 am\n",
-    "id": "ca453192-e09f-42ad-9f03-a062d6580fd1"
   }
 ]
