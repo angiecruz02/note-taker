@@ -8,6 +8,5 @@ const app = express();
 
 
 app.use('/notes', notesRouter);
-// TODO: Initialize diagnostics route
 
 module.exports = app;

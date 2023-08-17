@@ -1,13 +1,15 @@
 const notes = require('express').Router();
+// to generate unique IDs
+const { v4: uuidv4 } = require('uuid');
 
-// GET Route for retrieving diagnostic information
+const storedNotes = require('../Develop/db/db.json');
+
 notes.get('/', (req, res) => {
-  // TODO: Logic for sending all the content of db/notes.json
+  res.json(storedNotes);
 });
 
-// POST Route for a error logging
 notes.post('/', (req, res) => {
-  // TODO: Logic for appending data to the db/notes.json file
+  
 });
 
 module.exports = notes;
