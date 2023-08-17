@@ -1,12 +1,7 @@
 const express = require('express');
-
-
-const notesRouter = require('./notes');
-// TODO: import your diagnostics route
-
+const notesRoute = require('./notes');
 const app = express();
 
-
-app.use('/notes', notesRouter);
+app.use('/notes', notesRoute);
 
 module.exports = app;
